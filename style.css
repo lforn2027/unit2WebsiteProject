@@ -1,0 +1,90 @@
+body {
+  background-color: #fff8f2;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 30px;
+  color: #4a2c2a
+}
+
+h1 {
+  color: #c2185b;
+  font-size: 42px;
+  border: 4px solid #c2185b;
+  background-color: #ffe0ec;
+  padding: 15px;
+}
+
+h2 {
+  color: #8b4513;
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+ul, ol {
+  display: inline-block;
+  text-align: left;
+  font-size: 18px;
+}
+
+a {
+  color: #c2185b;
+  font-weight: bold;
+}
+
+.mainImage {
+  width: 350px;
+  border: 8px double #c2185b;
+  margin: 20px;
+}
+
+.dessertImage {
+  width: 250px;
+  border: 5px solid #8b4513;
+  margin: 15px;
+}
+
+.intro {
+  background-color: #fff0f5;
+  border: 3px dashed #c2185b;
+  padding: 20px;
+}
+
+.homeLink {
+  color: black;
+}
+
+.hoverBox {
+  background-color: #ffd6e7;
+  border: 3px solid #c2185b;
+  padding: 25px;
+  margin: 30px;
+  font-size: 22px;
+  transition: 0.5s;
+}
+.citation {
+  font-size: 14px;
+  color: #777777;
+  font-style: italic;
+}
+
+.surpriseText {
+  display: none;
+}
+
+.hoverBox:hover {
+  background-color: #ff69b4;
+  color: white;
+  transform: scale(1.1);
+  letter-spacing: 2px;
+}
+.hoverBox:hover .normalText {
+  display: none;
+}
+
+.hoverBox:hover .surpriseText {
+  display: inline;  
+}
